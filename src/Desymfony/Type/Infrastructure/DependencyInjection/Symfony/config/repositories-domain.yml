@@ -1,0 +1,3 @@
+services:
+  desymfony.type.domain.pokemon_type.repository.type_repository:
+    alias: desymfony.type.infrastructure.persistence.doctrine.repository.doctrine_type_repository

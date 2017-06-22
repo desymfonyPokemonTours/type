@@ -1,0 +1,5 @@
+services:
+  desymfony.type.infrastructure.persistence.doctrine.repository.doctrine_type_repository:
+    class: Desymfony\Type\Infrastructure\Persistence\Doctrine\Domain\Repository\DoctrineTypeRepository
+    parent: desymfony.doctrine.entity_repository
+    public: false

@@ -1,0 +1,15 @@
+Desymfony\Type\Infrastructure\Persistence\Doctrine\Domain\Entity\DoctrineType:
+  table: type
+  type: entity
+  repositoryClass: Desymfony\Type\Infrastructure\Persistence\Doctrine\Domain\Repository\DoctrineTypeRepository
+  id:
+    id:
+      type: integer
+      length: 11
+      unsigned: true
+      generator:
+        strategy: AUTO
+  fields:
+    name:
+      type: string
+      length: 100

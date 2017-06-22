@@ -1,0 +1,6 @@
+services:
+
+  desymfony.type.domain.service.get_type_by_id_service:
+    class: Desymfony\Type\Domain\Service\GetTypeByIdService
+    arguments:
+      - '@desymfony.type.domain.pokemon_type.repository.type_repository'
