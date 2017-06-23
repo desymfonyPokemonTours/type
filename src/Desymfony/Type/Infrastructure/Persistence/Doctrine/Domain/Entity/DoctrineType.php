@@ -1,6 +1,6 @@
 <?php
 
-namespace Desymfony\Type\Infrastructure\Persistence\Domain\Entity;
+namespace Desymfony\Type\Infrastructure\Persistence\Doctrine\Domain\Entity;
 
 use Desymfony\Type\Domain\Entity\Type;
 
